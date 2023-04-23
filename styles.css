@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 h1 {
     font-size: 58px;
     line-height: 64px;
@@ -36,7 +37,7 @@ p {
 
 body {
     width: 100%;
-    /* background-color: #e8f6ea; */
+    background-color:EAEAEA;
 }
 
 .section-p1 {
@@ -65,7 +66,7 @@ button.normal {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #d3a223;
+    background: #00ABB3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     margin-bottom: 0px;
     width: auto;
@@ -100,7 +101,7 @@ button.normal {
     font-weight: bolder;
     text-decoration: none;
     list-style: none;
-    color: #19376D;
+    color: #000001;
     transition: ease-in 0.3s;
 }
 
@@ -114,13 +115,13 @@ button.normal {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color: #1a1a1a;
+    color: #040404;
     transition: 0.3s ease;
 }
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: #576CBC;
+    color: #3C4048;;
 }
 
 #navbar li a.active::after,
@@ -128,7 +129,7 @@ button.normal {
     content: " ";
     width: 30%;
     height: 2px;
-    background: #576CBC;
+    background: #B2B2B2;
     position: absolute;
     bottom: -4px;
     left: 20px;
@@ -136,7 +137,7 @@ button.normal {
 
 /* Home page */
 #hero {
-    background-image: url(img/banner-bg.jpg);
+    background-image: url(img/banner_bg.png);
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -153,16 +154,14 @@ button.normal {
 }
 
 #hero h1 {
-    color: #19376D;
+    color: #EAEAEA;
 }
 
 #hero button {
-    /* background-image:url(img/product/banner3.jpg);
-    background-color:transparent;
-    background-position: center; */
+    
     background-color: transparent;
-    color: #19376D;
-    border: 1px solid white;
+    color: #EAEAEA;
+    border: 1px solid #B2B2B2;
     padding: 10px;
     cursor: pointer;
     font-size: 28px;
@@ -172,8 +171,8 @@ button.normal {
 }
 
 #hero button:hover {
-    background-color: #19376D;
-    color: beige;
+    background-color: #EAEAEA;
+    color: #185c5e;
 }
 
 .img1 {
@@ -207,7 +206,7 @@ button.normal {
     padding: 9px 6px 8px 5px;
     line-height: 1;
     border-radius: 4%;
-    color: #19376D;
+    color: #00ABB3;
     background-color: #fddde4;
 }
 
@@ -288,13 +287,13 @@ button.normal {
     padding-top: 7px;
     font-size: 15px;
     font-weight: 700;
-    color: #19376D;
+    color: #00ABB3;
 }
 
 #product1 .pro .cart {
     width: 40px;
     background-color: #e8f6ea;
-    color: #19376D;
+    color: #00ABB3;
     height: 40px;
     border: 1px solid #cce7d0;
     position: absolute;
@@ -305,7 +304,7 @@ button.normal {
 }
 
 #product1 .pro .cart:hover {
-    background-color: #19376D;
+    background-color: #00ABB3;
     color: white;
 }
 
@@ -352,7 +351,7 @@ button.normal {
 }
 
 #banner button:hover {
-    background-color: #19376D;
+    background-color: #00ABB3;
     color: white;
 }
 
@@ -426,9 +425,9 @@ button.normal {
 }
 
 #sm-banner button:hover {
-    background-color: #19376D;
+    background-color: #00ABB3;
     color: white;
-    border: 1px solid #19376D;
+    border: 1px solid #00ABB3;
 
 }
 
@@ -525,7 +524,7 @@ button.normal {
 }
 
 #newsletter button {
-    background-color: #19376D;
+    background-color: #00ABB3;
     color: white;
     padding: 0 20px;
     white-space: nowrap;
@@ -537,7 +536,7 @@ button.normal {
 .app-img {
     width: 300px;
     height: 120px;
-    border: 1px solid #19376D;
+    border: 1px solid #00ABB3;
     border-radius: 5px;
     margin: 10px 0 10px 0;
 }
@@ -545,13 +544,13 @@ button.normal {
 .pay-img {
     width: 65%;
     height: 80px;
-    border: 1px solid #19376D;
+    border: 1px solid #00ABB3;
     border-radius: 5px;
     margin: 10px 0 10px 0;
 }
 
 footer {
-    background-color: #d3a223;
+    background-color: #00ABB3;
 }
 
 footer .row {
@@ -600,7 +599,7 @@ footer .follow i {
 
 footer .follow i:hover,
 footer a:hover {
-    color: #19376D;
+    color: #00ABB3;
 }
 
 footer .copyright {
@@ -762,7 +761,7 @@ footer .copyright {
     }
 
     #navbar li:hover {
-        color: #19376D;
+        color: #00ABB3;
     }
 
     #navbar a#close {
@@ -887,7 +886,7 @@ footer .copyright {
     }
 
     #hero h1 {
-        color: #19376D;
+        color: #00ABB3;
         font-size: 50px;
     }
 
@@ -978,8 +977,8 @@ footer .copyright {
 
     #hero button {
 
-        color: #19376D;
-        border: 2px solid #19376D;
+        color: #00ABB3;
+        border: 2px solid #00ABB3;
         padding: 18px;
         font-size: 20px;
 
@@ -993,7 +992,7 @@ footer .copyright {
     }
 
     #hero h1 {
-        color: #19376D;
+        color: #00ABB3;
         font-size: 40px;
     }
 
@@ -1074,7 +1073,7 @@ footer .copyright {
     .app-img {
         min-width: 150px;
         height: 120px;
-        border: 1px solid #19376D;
+        border: 1px solid #00ABB3;
         border-radius: 5px;
         margin: 10px 0 10px 0;
     }
